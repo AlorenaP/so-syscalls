@@ -24,6 +24,12 @@ In the souces folder you can find the source code in c language for practicing d
 In order to compile the sources you can execute the following command:
 
 ```
+$ make ejemplo_01
+```
+
+or
+
+```
 $ chmod u+x compilar_ejecutar
 $ ./compilar_ejecutar.sh syscl_01
 ```
