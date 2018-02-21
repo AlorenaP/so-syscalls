@@ -19,7 +19,8 @@ Kernel modules allow you to introduce changes in the operating system without co
 # git clone https://github.com/jvns/kernel-module-fun.git
 # cd kernel-module-fun
 
-# yum install kernel-devel
+# UNAME=$(uname -r)
+# yum install gcc kernel-devel-${UNAME%.*}
 # make all
 # sudo insmod hello.ko
 # dmesg | tail
