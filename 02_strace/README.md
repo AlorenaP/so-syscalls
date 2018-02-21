@@ -39,13 +39,13 @@ The most simple python test with syscalls
 # strace python -c ""
 ```
 
-**mistery1.py**
+**mistery.py**
 ```
 print("hello syscalls")
 ```
 
 ```
-# strace -etrace=write python mistery1.py
+# strace -etrace=write python mistery.py
 ```
 
 ### References
