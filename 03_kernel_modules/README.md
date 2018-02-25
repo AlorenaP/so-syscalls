@@ -32,3 +32,4 @@ Kernel modules allow you to introduce changes in the operating system without co
 https://github.com/jvns/kernel-module-fun.git  
 https://jvns.ca/blog/2014/09/18/you-can-be-a-kernel-hacker/  
 http://blog.csdn.net/u012343297/article/details/79141878
+https://www.ibm.com/developerworks/library/l-linux-process-management/index.html
